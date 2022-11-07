@@ -1,0 +1,2 @@
+[1018/122752.817:ERROR:media_internals.cc(112)] Cannot get RenderProcessHost
+[1024/013603.939:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.

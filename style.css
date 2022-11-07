@@ -1,0 +1,299 @@
+/* General CSS  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    padding-right: 0;
+    margin-right: 0;
+
+}
+
+
+/* Header CSS Start here  */
+
+.weTubeHeader {
+    background-color: #ffffff;
+    padding-top: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid rgb(230, 229, 229);
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 30px;
+
+}
+
+.wetube-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.wetube-logo i {
+    align-items: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.wetube-logo img {
+    height: 18px;
+    margin: 7px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.wetube-searchbar {
+    align-items: center;
+    justify-content: center;
+}
+
+.wetube-searchbar .serachinput {
+    border: 1px solid #cccccc;
+    border-radius: 20px 0 0 20px;
+    height: 38px;
+    width: 550px;
+    outline: none;
+    padding: 0 25px;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    color: gray;
+
+}
+
+.wetube-searchbar .serachinput::-webkit-input-placeholder {
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+
+.wetube-searchbar button {
+    font-size: 18p5;
+    background-color: #f8f8f8;
+    height: 38px;
+    width: 80px;
+    border-radius: 0 20px 20px 0px;
+    border: 1px solid #cccccc;
+    outline: none;
+    margin-left: -10px;
+    color: #606060;
+    cursor: pointer;
+
+}
+
+.voice {
+    margin-left: 20px;
+    color: #333333;
+    cursor: pointer;
+}
+
+
+.wetube-headericons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    cursor: pointer;
+
+}
+
+.headericon {
+    font-size: 18px;
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+    padding: auto;
+    border-radius: 50%;
+    transition: 0.4s;
+
+}
+
+.headericon i {
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headericon img {
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+    height: 35px;
+}
+
+.headericon:hover {
+    background-color: rgb(231, 228, 228);
+}
+
+/* Bottom side start from here  */
+
+
+.sidebar {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 55px;
+    padding-left: 15px;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+.sidebar-menu {
+    padding: 10px 0 10px 12px;
+    padding-left: 12px;
+    transition: 0.4;
+}
+
+
+
+
+.sidebar h3 {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 550;
+    color: #444444;
+}
+
+.sidebarmenu-last {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(230, 229, 229);
+}
+
+.subscriptions {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.sidebar-menu:hover {
+    background-color: rgb(231, 228, 228);
+}
+
+/* Video Section Start here  */
+
+
+.wetube-bottom {
+    display: flex;
+    flex-direction: row;
+    top: 100px;
+    left: 100px;
+}
+
+.catagories {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    flex-direction: row;
+    padding: 15px 20px;
+    margin-left: 250px;
+    margin-top: 60px;
+    border-bottom: 1px solid rgb(230, 229, 229);
+    background-color: #ffffff;
+}
+
+.catagories a {
+    color: rgb(56, 55, 55);
+    font-size: 15px;
+    margin-right: 14px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 3px 10px;
+    border: 1px solid rgb(209, 209, 209);
+    width: auto;
+    outline: none;
+    font-weight: 300;
+    transition: 0.4s;
+}
+
+
+.catagories a:hover {
+    background-color: rgb(231, 228, 228);
+
+}
+
+
+/* Video Section Start Here  */
+
+
+
+
+.youtubevideos{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 250px;
+    margin-right: 0px;
+    width: 100%;
+    padding: 65px;
+    padding-top: 160px;
+}
+.thubsection{
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.thumbnail img{
+    height: 200px;
+    min-width: 350px;
+    margin-bottom: 15px;
+}
+
+.videodetails{
+    display: flex;
+    align-items: top;
+    width: 350px;
+}
+
+.channelprofileimg{
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: -2px;
+    
+}
+
+.thubnailtitles{
+    color: #333333;
+   text-align: left;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.channelName{
+    color: gray;
+    font-size: 14px;
+    font-weight: 550;
+    margin-bottom: 4px;
+}
+
+.views{
+    color: gray;
+    font-size: 14px;
+    font-weight: 550;
+}
